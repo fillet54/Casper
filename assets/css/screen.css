@@ -974,6 +974,10 @@ margin on the iframe, cause it breaks stuff. */
 /* ==========================================================================
    10. Google Prettify Solarized 
    ========================================================================== */
+pre {
+   background-color: #002b36;
+   line-height: 1em;
+}
 
 .prettyprint {
 color: #839496;
