@@ -1029,6 +1029,25 @@ color: #268bd2;
 color: inherit;
 }
 
+.prettyprint ol {
+   background-color: #002b36;
+}
+
+ol.linenums{
+    counter-reset:linenumber;
+}
+ol.linenums li{
+    list-style-type:none;
+    counter-increment:linenumber;
+}
+ol.linenums li:before{
+    content: counter(linenumber);
+    float:left;
+    margin-left:-4em;
+    text-align:right;
+    width:3em;
+}
+
 /* ==========================================================================
    11. Media Queries - Smaller than 900px
    ========================================================================== */
