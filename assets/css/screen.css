@@ -1033,7 +1033,11 @@ color: inherit;
    background-color: #002b36;
 }
 
-.prettyprint li.L1, li.L3, li.L5, li.L7, li.L9 {
+.prettyprint li.L1, 
+.prettyprint li.L3,
+.prettyprint li.L5,
+.prettyprint li.L7,
+.prettyprint li.L9 {
    background-color: #073642;
 }
 
