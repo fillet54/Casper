@@ -14,8 +14,9 @@
     7.  Third Party Elements
     8.  Pagination
     9.  Footer
-    10.  Media Queries (Tablet)
-    11. Media Queries (Mobile)
+    10. Prettify
+    11.  Media Queries (Tablet)
+    12. Media Queries (Mobile)
 
  */
 
@@ -970,9 +971,62 @@ margin on the iframe, cause it breaks stuff. */
     top: -33px;
 }
 
+/* ==========================================================================
+   10. Google Prettify Solarized 
+   ========================================================================== */
+
+.prettyprint {
+color: #839496;
+       background-color: #002b36;
+}
+
+.prettyprint .pln {
+color: inherit;
+}
+
+.prettyprint .str,
+   .prettyprint .lit,
+   .prettyprint .atv {
+color: #2aa198;
+   }
+
+.prettyprint .kwd {
+color: #268bd2;
+}
+
+.prettyprint .com,
+   .prettyprint .dec {
+color: #586e75;
+       font-style: italic;
+   }
+
+.prettyprint .typ {
+color: #b58900;
+}
+
+.prettyprint .pun {
+color: inherit;
+}
+
+.prettyprint .opn {
+color: inherit;
+}
+
+.prettyprint .clo {
+color: inherit;
+}
+
+.prettyprint .tag {
+color: #268bd2;
+       font-weight: bold;
+}
+
+.prettyprint .atn {
+color: inherit;
+}
 
 /* ==========================================================================
-   10. Media Queries - Smaller than 900px
+   11. Media Queries - Smaller than 900px
    ========================================================================== */
 
 @media only screen and (max-width: 900px) {
@@ -1033,7 +1087,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 /* ==========================================================================
-   11. Media Queries - Smaller than 500px
+   12. Media Queries - Smaller than 500px
    ========================================================================== */
 
 
